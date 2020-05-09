@@ -10,7 +10,7 @@ class RatingsBreakdown(MRJob):
         return [
             # chaining the steps together, the second one takes the output of the first one
             MRStep( mapper=self.mapper_get_movies, # we map the output from the file received to get the movie id's with as many ratings they have
-                reducer=self.reducer_count_ratings), # we apply the first reducer to sum the values of the movies
+                reducer=self.reducer_count_ratings), # we apply the first reducer to sum all the intances in which a movie was rated
             MRStep( reducer=self.reducer_sort_output) # we reduce the result sorted and print it
         ]
 
