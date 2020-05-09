@@ -1,8 +1,8 @@
 ### In your Hadoop ecosystem:
 
-•	Make sure to have Python >2 installed
-•	Make sure to have PIP for installing Python packages: yum install python-pip
-•	Make sure to have MrJob installed: pip install mrjob=0.5.11
+•	Make sure to have Python >2 installed <br />
+•	Make sure to have PIP for installing Python packages: yum install python-pip <br />
+•	Make sure to have MrJob installed: pip install mrjob=0.5.11 <br />
 
 ### Download the movielens data file:
 
