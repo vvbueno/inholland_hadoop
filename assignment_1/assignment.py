@@ -5,7 +5,7 @@ AMOUNT_OF_LEADING_ZEROS_FOR_RATINGS = 5 # the amount of leading zeros used in th
 
 class RatingsBreakdown(MRJob):
 
-    # mrjobs steps
+    # mrjobs stepswowowowo
     def steps(self):
         return [
             # chaining the steps together, the second one takes the output of the first one
